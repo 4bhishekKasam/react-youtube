@@ -1,0 +1,33 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+
+.youtube-logo{
+    margin-left: 5em;
+    height: 50px;
+}
+
+.logo{
+   margin-right: 0em;
+    height: 55px;
+}
+
+@media screen and (max-width : 580px){
+    
+.youtube-logo{
+    margin-left: 5%;
+}
+
+.search-wrapper{
+    width:100%;
+    margin-left: 0.5em
+}
+
+.search-bar{
+    width: 94%;
+}
+
+}

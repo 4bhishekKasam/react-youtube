@@ -1,0 +1,39 @@
+.video-list-wrapper{
+    margin: 2em 15px;
+    background-color: black;
+    max-height: 700px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-right: 30px;
+}
+
+.list-item{
+    cursor: pointer;
+    margin: 2em 0 0;
+    display: flex;
+    align-items: flex-start;
+}
+.video-list-title{
+    color: white;
+    display: block;
+    margin: 0 0 4px 0;
+    max-height: 3.2rem;
+    overflow: hidden;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+.channelName{
+    color: #e3e3e3;
+    display: inline-block;
+}
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.poster{
+    border: none;
+    background-size:cover; 
+}
+
